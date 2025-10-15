@@ -4,13 +4,13 @@ import photo from "../../assets/images/photo.png"
 const Photo = () => {
   return (
     <div
-      className="ml-[-95px]"
+      className="ml-[-175px] mt-[-80px]"
       style={{
         backgroundImage: `url(${photo})`,
-        height: 550,
-        width: 785,
+        height: 520,
+        width: 770,
       }}
-    />
+    ></div>
   );
 };
 

@@ -3,7 +3,7 @@ import Fonts from "../../utils/fonts";
 
 const Leftcontent = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-20">
       <div className="flex flex-row">
         <h1 style={{ ...Fonts.quicksand.semibold, fontSize: 128 }} className="">
           "
