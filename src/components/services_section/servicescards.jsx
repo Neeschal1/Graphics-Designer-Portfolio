@@ -28,7 +28,7 @@ const Servicescards = () => {
       <div className="flex w-full flex-row justify-between items-center">
         {
             services.map((index) => (
-                <div className="bg-[#333333] text-[#b4b4b4] flex flex-col rounded-2xl hover:text-white items-center justify-center p-2 gap-8">
+                <div key={index.id} className="bg-[#333333] text-[#b4b4b4] flex flex-col rounded-2xl hover:text-white items-center justify-center p-2 gap-8">
                     <h1 style={{...Fonts.poppins.medium, fontSize: 36}}>{index.service}</h1>
                     <img className="rounded-3xl hover:my-5 duration-500" src={index.picture} />
                 </div>
