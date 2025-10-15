@@ -18,14 +18,15 @@ const Fonts = {
     semiBold: { fontFamily: "Poppins, sans-serif", fontWeight: 600 },
     bold: { fontFamily: "Poppins, sans-serif", fontWeight: 700 },
   },
-  kalam: {
-    bold: {fontFamily: "Kalam, sans-serif", fontWeight: 800}
-  },
-  tanker: {
-    bold: {fontFamily: "Tanker, sans-serif", fontWeight: 500}
-  },
+  // kalam: {
+  //   bold: {fontFamily: "Kalam, sans-serif", fontWeight: 800}
+  // },
+  // tanker: {
+  //   bold: {fontFamily: "Tanker, sans-serif", fontWeight: 500}
+  // },
   quicksand: {
-    semibold: {fontFamily: "Quicksand, sans-serif", fontWeight: 600}
+    semibold: {fontFamily: "Quicksand, sans-serif", fontWeight: 600},
+    regular: {fontFamily: "Quicksand, sans-serif", fontWeight: 400}
   }
 };
 
