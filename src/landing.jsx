@@ -7,6 +7,7 @@ import Experience from './ui/experience'
 import Whyhireme from './ui/whyhireme'
 import Testimonials from './ui/testimonials'
 import Letsdiscuss from './ui/letsdiscuss'
+import Footer from './constants/footer'
 
 const Landing = () => {
   return (
@@ -17,6 +18,7 @@ const Landing = () => {
       {/* <Whyhireme /> */}
       <Testimonials />
       <Letsdiscuss />
+      <Footer />
     </div>
   )
 }
