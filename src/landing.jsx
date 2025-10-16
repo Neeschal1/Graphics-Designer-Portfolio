@@ -4,6 +4,8 @@ import Fonts from './utils/fonts'
 import Hero from './ui/hero'
 import Services from './ui/services'
 import Experience from './ui/experience'
+import Whyhireme from './ui/whyhireme'
+import Testimonials from './ui/testimonials'
 
 const Landing = () => {
   return (
@@ -11,6 +13,8 @@ const Landing = () => {
       <Hero />
       <Services />
       <Experience />
+      {/* <Whyhireme /> */}
+      <Testimonials />
     </div>
   )
 }
