@@ -6,6 +6,7 @@ import Services from './ui/services'
 import Experience from './ui/experience'
 import Whyhireme from './ui/whyhireme'
 import Testimonials from './ui/testimonials'
+import Letsdiscuss from './ui/letsdiscuss'
 
 const Landing = () => {
   return (
@@ -15,6 +16,7 @@ const Landing = () => {
       <Experience />
       {/* <Whyhireme /> */}
       <Testimonials />
+      <Letsdiscuss />
     </div>
   )
 }
