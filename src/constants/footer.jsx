@@ -14,11 +14,11 @@ const Quicklink = [
   { id: 6, name: "Testimonials", url: "#" },
 ];
 const sociallinks = [
-  { id: 1, name: "Facebook", url: "#" },
+  { id: 1, name: "Facebook", url: "https://www.facebook.com/aca.ssh.9#" },
   { id: 2, name: "Instagram", url: "#" },
   { id: 3, name: "Twitter", url: "#" },
-  { id: 4, name: "Linkedin", url: "#" },
-  { id: 5, name: "Tiktok", url: "#" },
+  { id: 4, name: "Linkedin", url: "https://www.linkedin.com/in/aashish-ghimire-179641235/" },
+  { id: 4, name: "Github", url: "https://github.com/Ashish4721" },
 ];
 const socialmedias = [
   {id: 1, icon:<MdOutlineFacebook color="white" size={30} />, url: "https://www.facebook.com/aca.ssh.9#"},
