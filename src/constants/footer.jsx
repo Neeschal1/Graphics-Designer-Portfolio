@@ -4,6 +4,7 @@ import { BsSendFill } from "react-icons/bs";
 import { MdOutlineFacebook } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 const Quicklink = [
   { id: 1, name: "Home", url: "#" },
@@ -23,7 +24,8 @@ const sociallinks = [
 const socialmedias = [
   {id: 1, icon:<MdOutlineFacebook color="white" size={30} />, url: "https://www.facebook.com/aca.ssh.9#"},
   {id: 2, icon:<FaTwitter color="white" size={30} />, url: "#"},
-  {id: 3, icon:<FaLinkedin color="white" size={30} />, url: "#"},
+  {id: 3, icon:<FaGithub color="white" size={30} />, url: "https://github.com/Ashish4721"},
+  {id: 4, icon:<FaLinkedin color="white" size={30} />, url: "https://www.linkedin.com/in/aashish-ghimire-179641235/"},
 ]
 
 const Footer = () => {
